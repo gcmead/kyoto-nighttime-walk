@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Kyoto Night Walk · 14 walk-in only</name>
+  <description><![CDATA[Kiyamachi (5) · Shinkyogoku-Kawaramachi (4) · Gion (5) · NO reservations anywhere]]></description>
+
+  <Style id="locked"><IconStyle><scale>1.3</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href></Icon></IconStyle></Style>
+  <Style id="major"><IconStyle><scale>1.1</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+  <Style id="bonus"><IconStyle><scale>0.9</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></Icon></IconStyle></Style>
+  <Style id="station"><IconStyle><scale>0.9</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/rail.png</href></Icon></IconStyle></Style>
+
+  <Folder>
+    <name>LOCKED — confirmed bookings / hard anchors</name>
+    <Placemark>
+      <name>Ritz-Carlton Kyoto — start &amp; end</name>
+      <description><![CDATA[<b>Start ~17:00 · loop back by midnight</b><br><br><b>WHAT IT IS:</b> Home base. The whole night-walk is a loop from here, ~3-4 km on foot through 3 distinct evening neighborhoods.<br><br><b>WHY FOR YOU:</b> Walking distance to all 14 picks. The Kiyamachi cluster is 8-12 min south; Shinkyogoku/Kawaramachi 10-15 min southwest; Gion 12-18 min southeast across the Kamogawa.<br><br>Address: Kamogawa Nijo-Ohashi Hotori, Nakagyo-ku]]></description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>135.77078,35.01428,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>MAJOR — the planned spine</name>
+    <Placemark>
+      <name>立ち呑み もみじ (Tachinomi Momiji)</name>
+      <description><![CDATA[<b>Daily 12:00-22:00 LO 21:30 · cash only · standing</b><br><br><b>WHAT IT IS:</b> Standing counter izakaya at Kiyamachi-Shijo gateway. Oden, sashimi small plates, lemon sour, sake.<br><br><b>WHY FOR YOU:</b> Tabelog explicit: 'Reservations unavailable.' Pure walk-in. Japanese-majority salaryman after-work crowd.<br><br>Address: 京都市中京区鍋屋町225 萩原ビル 1F<br><br><b>↪ ~13 min from Ritz · phone 075-241-6256</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7692,35.0041,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>すいば 四条河原町 (Suiba Shijo Kawaramachi)</name>
+      <description><![CDATA[<b>Mon-Fri 16:00-24:00 · Sat/Sun/Hol 15:00-24:00 · LO ~23:30 · closed Mon + 1st Tue</b><br><br><b>WHAT IT IS:</b> Standing bar, cheap-eats concept. Chuhai + lemon sour, takowasa, agedashi tofu, kushikatsu. Different branch from the Rokkaku one — this is the south Kawaramachi branch.<br><br><b>WHY FOR YOU:</b> Walk-in friendly, no reservations on Suiba official site. Mostly Japanese locals, women-friendly.<br><br>Address: 京都市中京区中之町569-2<br><br><b>↪ ~14 min from Ritz · phone 075-212-7701</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.76876,35.00385,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>立ち呑み処 origami (Tachinomi Origami)</name>
+      <description><![CDATA[<b>Sun-Thu 17:00-01:00 · Fri/Sat 17:00-03:00 · open year-round</b><br><br><b>WHAT IT IS:</b> 14-seat standing counter. 50+ jizake, 100+ shochu/chuhai/highball. Fried small plates, sashimi.<br><br><b>WHY FOR YOU:</b> Tabelog 4.48 rating (very high), walk-in primary, Japanese-majority. The DEEP sake/shochu list pick.<br><br>Address: 京都市中京区紙屋町363 オーシャンビル 1F<br><br><b>↪ ~10 min from Ritz · phone 050-5590-7168</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7696,35.0071,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>SAKE壱 (Sake Ichi)</name>
+      <description><![CDATA[<b>Evening · verify hours on arrival</b><br><br><b>WHAT IT IS:</b> Walk-in standing counter, 200+ sake varieties. Tabelog 3.69. Simple pairings.<br><br><b>WHY FOR YOU:</b> Pure sake-flight pick. Japanese-majority, near Kawaramachi station.<br><br>Address: 京都市中京区材木町<br><br><b>↪ ~12 min from Ritz · 2 min from Kawaramachi station</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7695,35.0042,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>たかせ会館 (Takase Kaikan) — micro-shop kaikan</name>
+      <description><![CDATA[<b>Evening · 'sit if empty, stand if crowded'</b><br><br><b>WHAT IT IS:</b> 1920s-era kaikan housing ~10 micro-shops in one converted building. Homemade osozai (small Japanese plates) 5-piece platter, draft beer, sake.<br><br><b>WHY FOR YOU:</b> Japanese-only territory, nearly zero English. The deepest-locals Kiyamachi find — a kaikan from the Taisho era.<br><br>Address: Kiyamachi south of Ritz, ~5 min walk<br><br><b>↪ ~5-7 min south of Ritz on Kiyamachi</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7695,35.0045,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>京極スタンド (Kyogoku Stand) — 1927 taishu-shokudo</name>
+      <description><![CDATA[<b>Wed 12:00-21:00 LO 20:45 · CLOSED Tuesdays · arrive by 19:45 latest</b><br><br><b>WHAT IT IS:</b> 1927-founded retro working-class dining hall. Large bottle beer, fried oysters, hayashi rice. Multi-generational Japanese crowd.<br><br><b>WHY FOR YOU:</b> Timeout JP explicit: 'No reservations, no waitlist.' Pure walk-in. The Showa-retro icon — pre-war Kyoto preserved. ⚠ LO 20:45.<br><br>Address: 京都市中京区新京極通四条上ル中之町546<br><br><b>↪ ~14 min from Ritz · phone 075-221-4156</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.76781,35.005,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>すいば bal 河原町BAL北店 (Suiba Bal Kita)</name>
+      <description><![CDATA[<b>12:00-15:00 + 17:00-03:00 · closed Tuesdays</b><br><br><b>WHAT IT IS:</b> Standing bar with later-night extension. Chuhai, kushi, oden. Different vibe than the south Suiba — more late-night.<br><br><b>WHY FOR YOU:</b> Open till 03:00 = the post-everything-else pick. Mixed Japanese/young locals.<br><br>Address: 京都市中京区河原町通三条下ル北車屋町261-1 1F<br><br><b>↪ ~10 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.76828,35.00833,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>立ち呑み ココロノコリ (Kokoronokori)</name>
+      <description><![CDATA[<b>~17:00-24:00 evening · walk-in (¥100/hr seat charge if sitting)</b><br><br><b>WHAT IT IS:</b> Curated wine + small plates standing bar near Pontocho south end. Natural wine glass, ahi tuna tartare, design-food-industry crowd.<br><br><b>WHY FOR YOU:</b> If you want WINE not sake in the walk. Japanese-majority young professional. Walk-in standing.<br><br>Address: 京都市中京区下樵木町197<br><br><b>↪ ~13 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7702,35.004,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>レボリューションブックス (Revolution Books)</name>
+      <description><![CDATA[<b>Lunch onward ~12:00 to late</b><br><br><b>WHAT IT IS:</b> Walk-in standing bar + cookbook shop hybrid, 2F unit near Takasegawa canal. Sashimi, karaage, whiskey. Japanese-majority design/food-industry crowd.<br><br><b>WHY FOR YOU:</b> The weirdest pick — bar inside a bookshop. Featured in Timeout JP. Unique format, walk-in.<br><br>Address: Kawaramachi area, 2F<br><br><b>↪ ~12 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.76945,35.0042,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>山口大亭 東店 (Yamaguchi Daitei Higashi)</name>
+      <description><![CDATA[<b>Mon-Thu + Sat 17:00-22:00 LO 21:30 · CLOSED Sundays + Holidays · Wed open</b><br><br><b>WHAT IT IS:</b> 50+ year old neighborhood izakaya. 6-seat counter + 2F tatami. Oden, beef-tendon stew, large-bottle beer.<br><br><b>WHY FOR YOU:</b> Japanese-only crowd, 50s/60s regulars. Pure walk-in. The Gion neighborhood-izakaya canonical version.<br><br>Address: 京都市東山区祇園町北側286<br><br><b>↪ ~14 min from Ritz · phone 075-561-4158</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7762,35.00345,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>GION TACHINOMI 山根子 (Yamaneko)</name>
+      <description><![CDATA[<b>Daily 11:00-24:00 · walk-in only · cash-on per drink</b><br><br><b>WHAT IT IS:</b> Tachinomi inside renovated 150-year-old machiya. 8 Kyoto craft beers on tap, sake refrigerator self-serve. Maizuru dried fish, hotaru-ika (firefly squid).<br><br><b>WHY FOR YOU:</b> Cash-on-per-drink system = pure walk-in, no tabs. Japanese-majority + craft-beer expats. The Gion machiya pick.<br><br>Address: 京都市東山区祇園町北側321-1<br><br><b>↪ ~13 min from Ritz across Sanjo-Ohashi</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.77735,35.00375,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>我逢人かっぱ (Gahojin Kappa) — all ¥390</name>
+      <description><![CDATA[<b>Tue-Sat 18:00-03:00 · Sun 17:00-00:30 · CLOSED Mondays · walk-in</b><br><br><b>WHAT IT IS:</b> 6-seat counter + 2F tatami. EVERY ITEM ¥390+tax (yakitori, sashimi, tofu, sides). Highball + sake.<br><br><b>WHY FOR YOU:</b> Flat-price gimmick (¥390 each) is the Japanese-locals concept. No tab math, just order and stack. Late-night option (closes 03:00 Tue-Sat).<br><br>Address: 京都市東山区八坂新地末吉町77<br><br><b>↪ ~15 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.7755,35.0021,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>あぶり屋 ぶんぞう (Aburiya Bunzo) — gyutan specialty</name>
+      <description><![CDATA[<b>18:00-03:00 · irregular closing days · 10-seat counter walk-in</b><br><br><b>WHAT IT IS:</b> Charcoal-grilled skewer counter specializing in gyutan (beef tongue) + beef cartilage. Sasami, lemon sour, sake.<br><br><b>WHY FOR YOU:</b> Gyutan + cartilage focus = Tohoku influence in Gion. Japanese-majority. Late hours.<br><br>Address: 京都市東山区富永町123<br><br><b>↪ ~15 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.776,35.00295,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>山口西店 (Yamaguchi Nishi) — sister of Daitei</name>
+      <description><![CDATA[<b>17:30-01:00 · CLOSED Sundays · walk-in</b><br><br><b>WHAT IT IS:</b> Sister of Yamaguchi Daitei Higashi. 8-seat counter + tables + 2F tatami. Beef curry stew, seasoned rice, large beer.<br><br><b>WHY FOR YOU:</b> Hanamikoji edge, Japanese-majority, the late-night sister to G1. If G1 is closed/full, this is the same family's other shop.<br><br>Address: 京都市東山区花見小路末吉町西入ル374-2<br><br><b>↪ ~15 min from Ritz</b>]]></description>
+      <styleUrl>#major</styleUrl>
+      <Point><coordinates>135.77565,35.0026,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>STATIONS — transit hubs</name>
+    <Placemark>
+      <name>Kawaramachi (Hankyu line)</name>
+      <description><![CDATA[<b>Closest station to Kiyamachi cluster</b><br><br><b>WHAT IT IS:</b> Hankyu Kyoto line. Heart of the Kawaramachi-Shijo commercial node. All Kiyamachi + Shinkyogoku spots within 5-min walk.]]></description>
+      <styleUrl>#station</styleUrl>
+      <Point><coordinates>135.76879,35.00343,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Gion-Shijo (Keihan line)</name>
+      <description><![CDATA[<b>Gion area transit</b><br><br><b>WHAT IT IS:</b> Keihan line. All 5 Gion picks within 5-10 min walk. Cross Shijo-Ohashi bridge to/from Kiyamachi cluster.]]></description>
+      <styleUrl>#station</styleUrl>
+      <Point><coordinates>135.77272,35.00343,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sanjo (Keihan + Tozai)</name>
+      <description><![CDATA[<b>Cross-river hub</b><br><br><b>WHAT IT IS:</b> Sanjo-Ohashi bridge is the canonical Kamogawa crossing. Origami (K3) and Suiba Bal Kita (S2) cluster near this station.]]></description>
+      <styleUrl>#station</styleUrl>
+      <Point><coordinates>135.77151,35.0091,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+
+</Document>
+</kml>
