@@ -176,7 +176,7 @@
 <div class="legend" id="legend">
   <label><input type="checkbox" id="show-locked" checked> <span class="swatch locked"></span> Locked (1)</label>
   <label><input type="checkbox" id="show-major" checked> <span class="swatch major"></span> Planned (10)</label>
-  <label><input type="checkbox" id="show-bonus" checked> <span class="swatch bonus"></span> Discovery (10)</label>
+  <label><input type="checkbox" id="show-bonus" checked> <span class="swatch bonus"></span> Discovery (15)</label>
   <label><input type="checkbox" id="show-station" checked> <span class="swatch station"></span> Stations (3)</label>
 </div>
 
@@ -314,6 +314,66 @@ const PINS = [
     "why": "Same south-Gion area as 5A (~3 min walk). Open till 03:00. Pick if you want grilled meat over the ¥390 stack.",
     "address": "京都市東山区富永町123",
     "walk": "~14 min from Ritz, adjacent to 5A"
+  },
+  {
+    "cat": "bonus",
+    "label": "🌊",
+    "name": "Kamogawa West Bank — start the walk south on the river",
+    "lat": 35.01,
+    "lon": 135.7704,
+    "when": "Always · free · walking-promenade",
+    "what": "Stone-stepped riverbank promenade along the west side of the Kamogawa. Willow trees, locals jogging, ducks. The natural start of any night walk from the Ritz.",
+    "why": "May is yuka season — across the river you'll see restaurants with wooden platforms (kawayuka 川床) extending out over the water for outdoor dining. Lit at dusk, the platforms are the iconic May-September Kyoto night view. Walk south from Ritz on this side for ~5 min before turning west to Kiyamachi.",
+    "address": "Kamogawa west bank, south of Nijo-Ohashi",
+    "walk": "Steps from Ritz · entry to the night walk"
+  },
+  {
+    "cat": "bonus",
+    "label": "🌊",
+    "name": "Pontocho Alley (先斗町通) — lantern alley between Kiyamachi and Kamogawa",
+    "lat": 35.0065,
+    "lon": 135.771,
+    "when": "Always · most atmospheric after dark · walking-only",
+    "what": "Narrow Edo-era alley running north-south between Sanjo-dori and Shijo-dori, parallel to the Kamogawa. Paper lanterns, preserved machiya facades, the famous geisha-quarter atmosphere.",
+    "why": "Walk THROUGH between Stops 2 and 3 on the golden path. Glimpses of the Kamogawa river through openings between buildings on the east side. THE iconic narrow-alley Kyoto night photo (without paying tourist-restaurant prices to be inside one).",
+    "address": "Between Kiyamachi-dori and Kamogawa, north of Shijo",
+    "walk": "The path goes through here between 2A Tatsumi area and 3A Mitsuki"
+  },
+  {
+    "cat": "bonus",
+    "label": "🌊",
+    "name": "Shijo-Ohashi Bridge (四条大橋) — Kamogawa crossing",
+    "lat": 35.00388,
+    "lon": 135.77242,
+    "when": "Always · the main river crossing on the walk",
+    "what": "The main Kamogawa bridge connecting the Pontocho/Kiyamachi west side to Gion on the east. Walking-and-traffic bridge, stone railings.",
+    "why": "Best Kamogawa view of the night walk. Stand at the middle of the bridge — northbound view shows Sanjo-Ohashi and the yuka terraces; southbound shows the riverbed running south. May = willows in full leaf, water clear, ducks. Pause here for the photo.",
+    "address": "Shijo-dori at the Kamogawa",
+    "walk": "Path crosses here between 3A Mitsuki (west) and 4A Yamaneko (east)"
+  },
+  {
+    "cat": "bonus",
+    "label": "🌊",
+    "name": "Tatsumi-bashi Bridge + Shirakawa Canal — the iconic Gion canal",
+    "lat": 35.00455,
+    "lon": 135.7745,
+    "when": "Always · the prettiest canal in Kyoto · walking through",
+    "what": "Small wooden bridge over the Shirakawa Canal in Gion. The canal is willow-lined, stone-walled, narrow — the most photographed canal stretch in Kyoto. Tatsumi Daimyojin Shrine sits next to the bridge with vermillion torii.",
+    "why": "Adjacent to 3B Gion Tanto (the okonomiyaki spot on Shirakawa). Walk slowly through here even if you don't eat at Tanto. Geisha occasionally cross the bridge in the evening on their way to teahouses — slim chance but real. Karolina's first-time-Kyoto moment.",
+    "address": "Shirakawa Canal at Tatsumi-bashi, Gion",
+    "walk": "On the path between Shijo-Ohashi and 4A Yamaneko"
+  },
+  {
+    "cat": "bonus",
+    "label": "🌊",
+    "name": "Kamogawa East Bank Return — walk back to Ritz",
+    "lat": 35.008,
+    "lon": 135.7726,
+    "when": "Always · the return walk · ~15 min from south Gion to Ritz",
+    "what": "Stone-stepped east bank of the Kamogawa, running parallel to Pontocho on the other side. Same yuka terraces visible from this side, now from below.",
+    "why": "After 5A Kappa in south Gion, walk west to the river and head NORTH on the east bank back to Ritz. ~15 min walk, you pass under Shijo-Ohashi → Sanjo-Ohashi → cross Sanjo-Ohashi west to land at Ritz. The whole return is river-front.",
+    "address": "Kamogawa east bank between Shijo and Nijo",
+    "walk": "Return path home — closes the loop"
   },
   {
     "cat": "bonus",
@@ -463,7 +523,7 @@ const PINS = [
     "what": "Sanjo-Ohashi bridge — alt Kamogawa crossing for the north end of the walk."
   }
 ];
-const COUNTS = {"locked":1,"major":10,"bonus":10,"station":3};
+const COUNTS = {"locked":1,"major":10,"bonus":15,"station":3};
 
 // Business-name links (NOT coordinates) — opens the actual business listing
 function appleMapsLink(p) {
@@ -476,7 +536,7 @@ function googleMapsLink(p) {
 }
 
 // ===== MAP VIEW =====
-const map = L.map('map').setView([35.00534375, 135.77147208333332], 13);
+const map = L.map('map').setView([35.00555793103449, 135.77159482758617], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap', maxZoom: 19
 }).addTo(map);
@@ -520,7 +580,7 @@ const all = PINS.map(p => [p.lat, p.lon]);
 if (all.length) map.fitBounds(all, { padding: [30, 30] });
 
 // Render path polyline if provided
-const PATH = [[35.01428,135.77078],[35.00833,135.76828],[35.00404,135.76859],[35.00339,135.77068],[35.00375,135.77735],[35.0021,135.7755],[35.01428,135.77078]];
+const PATH = [[35.01428,135.77078],[35.01,135.7704],[35.0091,135.77],[35.0091,135.7692],[35.00833,135.76828],[35.0071,135.7696],[35.005,135.769],[35.00404,135.76859],[35.004,135.7702],[35.00339,135.77068],[35.00388,135.77242],[35.00455,135.7745],[35.00375,135.77735],[35.0021,135.7755],[35.005,135.774],[35.008,135.7726],[35.012,135.771],[35.01428,135.77078]];
 if (PATH && PATH.length > 1) {
   L.polyline(PATH, {
     color: '#B8860B',

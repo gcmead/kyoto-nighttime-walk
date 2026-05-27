@@ -95,6 +95,41 @@
   <Folder>
     <name>BONUS — discovery zone</name>
     <Placemark>
+      <name>Kamogawa West Bank — start the walk south on the river</name>
+      <description><![CDATA[<b>Always · free · walking-promenade</b><br><br><b>WHAT IT IS:</b> Stone-stepped riverbank promenade along the west side of the Kamogawa. Willow trees, locals jogging, ducks. The natural start of any night walk from the Ritz.<br><br><b>WHY FOR YOU:</b> May is yuka season — across the river you'll see restaurants with wooden platforms (kawayuka 川床) extending out over the water for outdoor dining. Lit at dusk, the platforms are the iconic May-September Kyoto night view. Walk south from Ritz on this side for ~5 min before turning west to Kiyamachi.<br><br>Address: Kamogawa west bank, south of Nijo-Ohashi<br><br><b>↪ Steps from Ritz · entry to the night walk</b>]]></description>
+      <styleUrl>#bonus</styleUrl>
+      <Point><coordinates>135.7704,35.01,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Pontocho Alley (先斗町通) — lantern alley between Kiyamachi and Kamogawa</name>
+      <description><![CDATA[<b>Always · most atmospheric after dark · walking-only</b><br><br><b>WHAT IT IS:</b> Narrow Edo-era alley running north-south between Sanjo-dori and Shijo-dori, parallel to the Kamogawa. Paper lanterns, preserved machiya facades, the famous geisha-quarter atmosphere.<br><br><b>WHY FOR YOU:</b> Walk THROUGH between Stops 2 and 3 on the golden path. Glimpses of the Kamogawa river through openings between buildings on the east side. THE iconic narrow-alley Kyoto night photo (without paying tourist-restaurant prices to be inside one).<br><br>Address: Between Kiyamachi-dori and Kamogawa, north of Shijo<br><br><b>↪ The path goes through here between 2A Tatsumi area and 3A Mitsuki</b>]]></description>
+      <styleUrl>#bonus</styleUrl>
+      <Point><coordinates>135.771,35.0065,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Shijo-Ohashi Bridge (四条大橋) — Kamogawa crossing</name>
+      <description><![CDATA[<b>Always · the main river crossing on the walk</b><br><br><b>WHAT IT IS:</b> The main Kamogawa bridge connecting the Pontocho/Kiyamachi west side to Gion on the east. Walking-and-traffic bridge, stone railings.<br><br><b>WHY FOR YOU:</b> Best Kamogawa view of the night walk. Stand at the middle of the bridge — northbound view shows Sanjo-Ohashi and the yuka terraces; southbound shows the riverbed running south. May = willows in full leaf, water clear, ducks. Pause here for the photo.<br><br>Address: Shijo-dori at the Kamogawa<br><br><b>↪ Path crosses here between 3A Mitsuki (west) and 4A Yamaneko (east)</b>]]></description>
+      <styleUrl>#bonus</styleUrl>
+      <Point><coordinates>135.77242,35.00388,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tatsumi-bashi Bridge + Shirakawa Canal — the iconic Gion canal</name>
+      <description><![CDATA[<b>Always · the prettiest canal in Kyoto · walking through</b><br><br><b>WHAT IT IS:</b> Small wooden bridge over the Shirakawa Canal in Gion. The canal is willow-lined, stone-walled, narrow — the most photographed canal stretch in Kyoto. Tatsumi Daimyojin Shrine sits next to the bridge with vermillion torii.<br><br><b>WHY FOR YOU:</b> Adjacent to 3B Gion Tanto (the okonomiyaki spot on Shirakawa). Walk slowly through here even if you don't eat at Tanto. Geisha occasionally cross the bridge in the evening on their way to teahouses — slim chance but real. Karolina's first-time-Kyoto moment.<br><br>Address: Shirakawa Canal at Tatsumi-bashi, Gion<br><br><b>↪ On the path between Shijo-Ohashi and 4A Yamaneko</b>]]></description>
+      <styleUrl>#bonus</styleUrl>
+      <Point><coordinates>135.7745,35.00455,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kamogawa East Bank Return — walk back to Ritz</name>
+      <description><![CDATA[<b>Always · the return walk · ~15 min from south Gion to Ritz</b><br><br><b>WHAT IT IS:</b> Stone-stepped east bank of the Kamogawa, running parallel to Pontocho on the other side. Same yuka terraces visible from this side, now from below.<br><br><b>WHY FOR YOU:</b> After 5A Kappa in south Gion, walk west to the river and head NORTH on the east bank back to Ritz. ~15 min walk, you pass under Shijo-Ohashi → Sanjo-Ohashi → cross Sanjo-Ohashi west to land at Ritz. The whole return is river-front.<br><br>Address: Kamogawa east bank between Shijo and Nijo<br><br><b>↪ Return path home — closes the loop</b>]]></description>
+      <styleUrl>#bonus</styleUrl>
+      <Point><coordinates>135.7726,35.008,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
       <name>🥞 Okonomiyaki Kiraku Sanjo (お好み焼 きらく) — 3rd okonomiyaki</name>
       <description><![CDATA[<b>Wed 11:30-13:40 + 17:00-22:00 LO · CLOSED Mondays</b><br><br><b>WHAT IT IS:</b> Long-time local-favorite Kyoto okonomiyaki + teppan, hidden-alley feel. Fresh chuhai/lemon sours.<br><br><b>WHY FOR YOU:</b> Off-path third okonomiyaki — north Gion / Sanjo-east, would require crossing Sanjo-Ohashi early. Pick if 3A/3B both don't work, OR for a future lunch slot.<br><br>Address: 京都市東山区三条通白川橋東4丁目中之町208<br><br><b>↪ ~15 min from Ritz east via Sanjo</b>]]></description>
       <styleUrl>#bonus</styleUrl>
