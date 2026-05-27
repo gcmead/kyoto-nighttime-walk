@@ -163,7 +163,7 @@
   <div class="header-top">
     <div>
       <h1>Kyoto Night Walk · Golden Path</h1>
-      <div class="sub">5 stops × A/B · 🥞 okonomiyaki · 🍋 chuhai · 🍶 sake · 🍺 craft beer · all walk-in</div>
+      <div class="sub">5 stops north→south then loop home · 🥞 okonomiyaki · 🍋 chuhai · 🍶 sake · 🍺 craft beer</div>
     </div>
     <button class="locate-btn" id="locate">📍 Where am I</button>
   </div>
@@ -191,250 +191,249 @@ const PINS = [
     "name": "Ritz-Carlton Kyoto — start & end",
     "lat": 35.01428,
     "lon": 135.77078,
-    "when": "Start ~17:30 · loop back via Gion by ~midnight",
-    "what": "Home base. The night-walk is a loop: walk south down Kiyamachi → cross to Pontocho/Shinkyogoku → cross Shijo-Ohashi to Gion → walk back via Kamogawa.",
-    "why": "All 5 golden-path stops walkable. Backup picks (bonus pins) scattered along the same loop.",
+    "when": "Start ~17:30 · loop south down Kiyamachi → cross to Gion → home via Kamogawa by ~midnight",
+    "what": "Home base. Gold dashed line on map = the recommended A-path. Pins along the path = walking alternates if a primary is full or closed.",
     "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo-ku"
   },
   {
     "cat": "major",
     "label": "1A",
-    "name": "🍶 Tachinomi Origami (立ち呑み処 origami)",
-    "lat": 35.0071,
-    "lon": 135.7696,
-    "when": "STOP 1 PRIMARY · 17:30 · Sun-Thu 17:00-01:00 · open year-round",
-    "what": "14-seat standing counter, 50+ jizake / 100+ shochu/chuhai/highball. Fried small plates, sashimi.",
-    "why": "Tabelog 4.48 (very high). The opener — deep sake list, Japanese-majority, near Ritz. Walk-in primary.",
-    "address": "京都市中京区紙屋町363 オーシャンビル 1F",
-    "walk": "~10 min south from Ritz on Kiyamachi"
+    "name": "🍋 Suiba Bal Kita (すいば bal 河原町BAL北店) · STOP 1",
+    "lat": 35.00833,
+    "lon": 135.76828,
+    "when": "STOP 1 · ~17:30 · 12:00-15:00 + 17:00-03:00 · closed Tue",
+    "what": "Standing chuhai bar with late hours. Chuhai, lemon sour, kushi, oden.",
+    "why": "First stop walking south from Ritz down Kiyamachi/Kawaramachi. Opens 17:00, casual entry. Same area as 1B Origami (5 min walk south of here).",
+    "address": "京都市中京区河原町通三条下ル北車屋町261-1 1F",
+    "walk": "~10 min south from Ritz"
   },
   {
     "cat": "major",
     "label": "1B",
-    "name": "🍋 Suiba bal 河原町BAL北店 (Suiba Bal Kita)",
-    "lat": 35.00833,
-    "lon": 135.76828,
-    "when": "STOP 1 SECONDARY · 12:00-15:00 + 17:00-03:00 · closed Tue",
-    "what": "Standing chuhai bar with extended late-night hours. Chuhai, lemon sour, kushi, oden.",
-    "why": "Backup if Origami is packed. Open till 03:00 — also works as the LAST stop of the night if needed.",
-    "address": "京都市中京区河原町通三条下ル北車屋町261-1 1F",
-    "walk": "~10 min from Ritz (Kawaramachi-Sanjo)"
+    "name": "🍶 Tachinomi Origami (立ち呑み処 origami) · STOP 1 alt",
+    "lat": 35.0071,
+    "lon": 135.7696,
+    "when": "STOP 1 ALT · Sun-Thu 17:00-01:00 · open year-round",
+    "what": "14-seat standing counter, 50+ jizake / 100+ shochu/chuhai/highball. Fried small plates, sashimi.",
+    "why": "Same area as 1A (~5 min south). Tabelog 4.48. Pick if you want a deep sake program over chuhai-bar standing. Could do both — 1A first, then walk south to 1B before continuing to Stop 2.",
+    "address": "京都市中京区紙屋町363 オーシャンビル 1F",
+    "walk": "~12 min from Ritz · 5 min south of 1A"
   },
   {
     "cat": "major",
     "label": "2A",
-    "name": "🍋 たつみ (Tatsumi) — Kyoto Three Great Sakaba",
+    "name": "🍋 Tatsumi (たつみ) — Kyoto Three Great Sakaba · STOP 2",
     "lat": 35.00404,
     "lon": 135.76859,
-    "when": "STOP 2 PRIMARY · ⚠ LO 20:50 · CLOSED Thursday · go by 19:30",
-    "what": "Voted 'Kyoto Three Great Sakaba' by Japanese locals magazine potel.jp. Hi-Riki Lemon chuhai + highball + sake. Standing or back tatami.",
-    "why": "THE chuhai destination of the night. ⚠ Must hit by 19:30 to be safe — LO 20:50 means kitchen stops then.",
+    "when": "STOP 2 · ~19:00 · ⚠ LO 20:50 · closed Thursday",
+    "what": "Voted 'Kyoto Three Great Sakaba' by Japanese locals magazine. Hi-Riki Lemon chuhai + highball + sake. Standing or back tatami.",
+    "why": "Mid-walk anchor at Kawaramachi-Shijo. ⚠ LO 20:50 — leave Stop 1 by 18:30 to be safe.",
     "address": "京都市中京区裏寺町通四条上ル中之町572",
     "walk": "~14 min from Ritz · 2 min from Hankyu Kawaramachi station"
   },
   {
     "cat": "major",
     "label": "2B",
-    "name": "🍋 すいば 四条河原町 (Suiba Shijo Kawaramachi)",
+    "name": "🍋 Suiba Shijo Kawaramachi · STOP 2 alt",
     "lat": 35.00385,
     "lon": 135.76876,
-    "when": "STOP 2 SECONDARY · Mon-Fri 16:00-24:00 · LO 23:30 · closed Mon + 1st Tue",
-    "what": "Standing chuhai bar, casual. Lemon sour, takowasa, agedashi tofu, kushikatsu.",
-    "why": "Tatsumi backup. Open till 24:00 = much more forgiving timing.",
+    "when": "STOP 2 ALT · Mon-Fri 16:00-24:00 · LO 23:30 · closed Mon + 1st Tue",
+    "what": "Casual standing chuhai bar. Lemon sour, takowasa, agedashi tofu, kushikatsu.",
+    "why": "Same block as 2A (~30m apart). Open till 24:00 = forgiving timing if you miss Tatsumi's 20:50.",
     "address": "京都市中京区中之町569-2",
-    "walk": "~14 min from Ritz, near Tatsumi"
+    "walk": "~14 min from Ritz, adjacent to 2A"
   },
   {
     "cat": "major",
     "label": "3A",
-    "name": "🥞🍋 鉄板 みつ喜 (Teppan Mitsuki) — POSCHO OKONOMIYAKI",
+    "name": "🥞🍋 Teppan Mitsuki (鉄板 みつ喜) — DINNER · STOP 3",
     "lat": 35.00339,
     "lon": 135.77068,
-    "when": "STOP 3 PRIMARY DINNER · Tue-Sun 18:00-01:00 LO 24:00 · CLOSED Mon",
-    "what": "Pontocho okonomiyaki + teppan. Water-free signature style (denser batter). Treated as a drinking-spot first, food second. Fresh chuhai/lemon sours.",
-    "why": "Pontocho alley okonomiyaki, à la carte, walk-in friendly, open late. Tabelog Magazine Japanese article featured as the locals-frequented teppan. ⭐ One of three top-tier okonomiyaki on the map.",
+    "when": "STOP 3 · ~20:30 dinner · Tue-Sun 18:00-01:00 LO 24:00 · CLOSED Mon",
+    "what": "Pontocho okonomiyaki + teppan. Water-free signature style. Treated as drinking-spot first, food second. Fresh chuhai/lemon sours. À la carte.",
+    "why": "DINNER anchor. Pontocho alley, walk-in friendly, open till 01:00 — generous window. ⭐ Top-tier okonomiyaki.",
     "address": "京都市中京区木屋町四条上ル下樵木町192",
-    "walk": "~15 min from Ritz, Pontocho alley near Shijo"
+    "walk": "~15 min from Ritz, Pontocho alley near Shijo · ~5 min from Stop 2"
   },
   {
     "cat": "major",
     "label": "3B",
-    "name": "🥞🍋 祇園たんと (Gion Tanto) — SHIRAKAWA OKONOMIYAKI",
+    "name": "🥞🍋 Gion Tanto (祇園たんと) — DINNER alt (east side) · STOP 3 alt",
     "lat": 35.00455,
     "lon": 135.7745,
-    "when": "STOP 3 SECONDARY DINNER · Wed 16:30-21:30 LO 21:30 · CLOSED Thursday",
-    "what": "Kyoto-style fluffy okonomiyaki + teppan + chuhai. Small neighborhood counter on Shirakawa Canal near Tatsumi Bridge.",
-    "why": "Gion-side okonomiyaki, no reservations, à la carte. ⚠ Closes 21:30 — earlier dinner if doing Tanto. Cross Shijo-Ohashi to reach it.",
+    "when": "STOP 3 ALT · Wed 16:30-21:30 LO 21:30 · CLOSED Thursday",
+    "what": "Kyoto-style fluffy okonomiyaki + teppan + chuhai. Small counter on Shirakawa Canal near Tatsumi Bridge.",
+    "why": "EAST-SIDE okonomiyaki alt — cross Shijo-Ohashi to Gion if you want this. Closes 21:30 (earlier than Mitsuki). Picking this changes the rest of the night — you're already in Gion, so straight to Stop 4.",
     "address": "京都市東山区清本町372",
-    "walk": "~12 min from Ritz south along Kamogawa, cross Shijo-Ohashi"
+    "walk": "~12 min from Ritz · cross Shijo-Ohashi from Stop 2"
   },
   {
     "cat": "major",
     "label": "4A",
-    "name": "🍺 GION TACHINOMI 山根子 (Yamaneko)",
+    "name": "🍺 Gion Tachinomi Yamaneko (山根子) · STOP 4",
     "lat": 35.00375,
     "lon": 135.77735,
-    "when": "STOP 4 PRIMARY · Daily 11:00-24:00 · cash-on per drink",
-    "what": "Tachinomi inside 150-year-old machiya. 8 Kyoto craft beers on tap + sake refrigerator self-serve. Maizuru dried fish, hotaru-ika (firefly squid).",
-    "why": "The Gion machiya pick. Craft beer + sake program in a preserved Edo-era building. Cash-on-per-drink = no tab, pure walk-in.",
+    "when": "STOP 4 · ~22:00 · Daily 11:00-24:00 · cash-on per drink",
+    "what": "Tachinomi inside 150-year-old machiya. 8 Kyoto craft beers on tap + sake refrigerator self-serve. Maizuru dried fish.",
+    "why": "Cross Shijo-Ohashi from Pontocho to Gion (if dinner was 3A Mitsuki) — Yamaneko is the anchor on the Gion side. Open till 24:00 = generous timing.",
     "address": "京都市東山区祇園町北側321-1",
     "walk": "~13 min from Ritz · 5 min from Gion-Shijo station"
   },
   {
     "cat": "major",
     "label": "4B",
-    "name": "山口大亭 東店 (Yamaguchi Daitei Higashi) — 50yr izakaya",
+    "name": "Yamaguchi Daitei Higashi (山口大亭 東店) · STOP 4 alt",
     "lat": 35.00345,
     "lon": 135.7762,
-    "when": "STOP 4 SECONDARY · Mon-Thu/Sat 17:00-22:00 LO 21:30 · CLOSED Sun + holidays · Wed open",
+    "when": "STOP 4 ALT · Mon-Thu + Sat 17:00-22:00 LO 21:30 · CLOSED Sun + holidays · Wed open",
     "what": "50+ year old neighborhood izakaya. 6-seat counter + 2F tatami. Oden, beef-tendon stew, large-bottle beer.",
-    "why": "Yamaneko alt. Japanese-only crowd, 50s/60s regulars. ⚠ Closes 22:00 — hit before Yamaneko if doing both.",
+    "why": "Same Gion micro-area as 4A (~50m apart). ⚠ Closes 22:00 LO 21:30 — go BEFORE 4A if doing both.",
     "address": "京都市東山区祇園町北側286",
-    "walk": "~14 min from Ritz"
+    "walk": "~14 min from Ritz, adjacent to 4A"
   },
   {
     "cat": "major",
     "label": "5A",
-    "name": "我逢人かっぱ (Gahojin Kappa) — late ¥390 everything",
+    "name": "Gahojin Kappa (我逢人かっぱ) — ¥390 everything · STOP 5",
     "lat": 35.0021,
     "lon": 135.7755,
-    "when": "STOP 5 PRIMARY · Tue-Sat 18:00-03:00 · Sun 17:00-00:30 · CLOSED Mon",
+    "when": "STOP 5 · late ~23:00+ · Tue-Sat 18:00-03:00 · Sun 17:00-00:30 · CLOSED Mon",
     "what": "6-seat counter + 2F tatami. EVERY item ¥390+tax (yakitori, sashimi, tofu, sides). Highball + sake.",
-    "why": "Flat-price ¥390 gimmick = no tab math, just stack. Late-night close 03:00 Tue-Sat. The end-of-night pick.",
+    "why": "South Gion final stop. ¥390 = no tab math. Open till 03:00 Tue-Sat = the last-stop pick. After this, walk back north to Ritz along Kamogawa.",
     "address": "京都市東山区八坂新地末吉町77",
-    "walk": "~15 min from Ritz"
+    "walk": "~15 min south from Stop 4 (5-7 min walk down Hanamikoji)"
   },
   {
     "cat": "major",
     "label": "5B",
-    "name": "あぶり屋 ぶんぞう (Aburiya Bunzo) — gyutan late",
+    "name": "Aburiya Bunzo (あぶり屋 ぶんぞう) — gyutan · STOP 5 alt",
     "lat": 35.00295,
     "lon": 135.776,
-    "when": "STOP 5 SECONDARY · 18:00-03:00 · irregular closing",
+    "when": "STOP 5 ALT · 18:00-03:00 · irregular closing",
     "what": "Charcoal-grilled skewer counter. Gyutan (beef tongue) + beef cartilage specialty. Sasami, lemon sour, sake.",
-    "why": "Late-night alt to Kappa. Gyutan focus = Tohoku influence in Gion. Japanese-majority. Open till 03:00.",
+    "why": "Same south-Gion area as 5A (~3 min walk). Open till 03:00. Pick if you want grilled meat over the ¥390 stack.",
     "address": "京都市東山区富永町123",
-    "walk": "~15 min from Ritz"
+    "walk": "~14 min from Ritz, adjacent to 5A"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "🥞 お好み焼 きらく 三条本店 (Okonomiyaki Kiraku Sanjo) — 3rd okonomiyaki",
+    "name": "🥞 Okonomiyaki Kiraku Sanjo (お好み焼 きらく) — 3rd okonomiyaki",
     "lat": 35.00833,
     "lon": 135.779,
-    "when": "Wed 11:30-13:40 LO + 17:00-22:00 LO · CLOSED Mondays",
-    "what": "Long-time local-favorite Kyoto okonomiyaki + teppan, casual neighborhood izakaya energy. Hidden-alley feel. Fresh chuhai/lemon sours.",
-    "why": "Third okonomiyaki on the map (alongside 3A Mitsuki + 3B Tanto). Locals-heavy. Off the golden path — north-of-Shijo, near Higashiyama station.",
+    "when": "Wed 11:30-13:40 + 17:00-22:00 LO · CLOSED Mondays",
+    "what": "Long-time local-favorite Kyoto okonomiyaki + teppan, hidden-alley feel. Fresh chuhai/lemon sours.",
+    "why": "Off-path third okonomiyaki — north Gion / Sanjo-east, would require crossing Sanjo-Ohashi early. Pick if 3A/3B both don't work, OR for a future lunch slot.",
     "address": "京都市東山区三条通白川橋東4丁目中之町208",
     "walk": "~15 min from Ritz east via Sanjo"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "🍋 立ち呑み もみじ (Tachinomi Momiji) — sashimi standing",
+    "name": "🍋 Tachinomi Momiji (立ち呑み もみじ) — Kiyamachi-Shijo gateway",
     "lat": 35.0041,
     "lon": 135.7692,
     "when": "Daily 12:00-22:00 LO 21:30 · cash only · standing",
-    "what": "Standing counter at Kiyamachi-Shijo gateway. Fresh oden + sashimi small plates + lemon sour + sake.",
-    "why": "Off-path Kiyamachi pick. Fresh seafood standing alt if you want sashimi instead of chuhai-bar standing.",
+    "what": "Standing counter at Kiyamachi-Shijo entrance. Fresh oden + sashimi + lemon sour + sake.",
+    "why": "On the path between Stop 1 and Stop 2 if you have appetite. Fresh sashimi standing alt.",
     "address": "京都市中京区鍋屋町225 萩原ビル 1F",
-    "walk": "~13 min from Ritz"
+    "walk": "On the walking line between 1B and 2A"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "🍶 SAKE壱 (Sake Ichi) — 200+ sake",
+    "name": "🍶 SAKE壱 — 200+ sake counter",
     "lat": 35.0042,
     "lon": 135.7695,
-    "when": "Evening hours · verify on arrival",
-    "what": "Walk-in standing counter, 200+ sake varieties. Simple pairings.",
-    "why": "Pure sake-flight pick. Off-path alt to 1A Origami if you want even deeper sake selection.",
+    "when": "Evening · verify on arrival",
+    "what": "Walk-in standing counter, 200+ sake varieties.",
+    "why": "Off-path near Stop 2 cluster. Even deeper sake than 1B Origami if you want a sake-fork mid-walk.",
     "address": "京都市中京区材木町",
-    "walk": "~12 min from Ritz, near Kawaramachi station"
+    "walk": "Adjacent to 2A/2B cluster"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "たかせ会館 (Takase Kaikan) — Taisho-era kaikan",
+    "name": "Takase Kaikan (たかせ会館) — Taisho kaikan",
     "lat": 35.0045,
     "lon": 135.7695,
     "when": "Evening · 'sit if empty, stand if crowded'",
-    "what": "1920s kaikan housing 10 micro-shops in one converted building. Homemade osozai 5-piece platter, draft beer, sake.",
-    "why": "Off-path deepest-locals find. Japanese-only territory.",
-    "address": "Kiyamachi south of Ritz",
-    "walk": "~5-7 min south of Ritz"
+    "what": "1920s kaikan housing 10 micro-shops in one building. Homemade osozai, draft beer, sake.",
+    "why": "Off-path Taisho-era curiosity near Stop 2 cluster. Japanese-only.",
+    "address": "Kiyamachi south",
+    "walk": "Adjacent to 2A/2B cluster"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "🍋 木屋町ゴールデン酒場 (Kiyamachi Golden Sakaba) — Showa late",
+    "name": "🍋 Kiyamachi Golden Sakaba — Showa retro late",
     "lat": 35.00854,
     "lon": 135.76925,
     "when": "Wed 18:00-03:00 · 1F standing · 2F seated",
     "what": "Showa-retro standing bar. Highball + chuhai + oden + kushiage ¥300-900.",
-    "why": "Late-night Kiyamachi anchor (open till 03:00). Off-path but solid backup if 5A/5B aren't right.",
+    "why": "Off-path near Stop 1 area (just east of 1A). Late-night option if you want to swing back through Kiyamachi north on the loop home (~03:00 close).",
     "address": "京都市中京区木屋町通六角東側材木町184 都会館ビル 1F",
-    "walk": "~12 min from Ritz"
+    "walk": "Adjacent to 1A, also handy for the walk back to Ritz"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "京極スタンド (Kyogoku Stand) — 1927 daytime retro",
+    "name": "Kyogoku Stand (京極スタンド) — 1927 retro",
     "lat": 35.005,
     "lon": 135.76781,
     "when": "Wed 12:00-21:00 LO 20:45 · CLOSED Tuesdays",
-    "what": "1927-founded retro working-class dining hall. Large bottle beer, fried oysters, hayashi rice. Multi-generational Japanese crowd.",
-    "why": "Daytime/early-evening only — LO 20:45 cuts it off. Off the golden-path (the early-LO rules it out as sequential), but worth a stop if you're walking past before 20:00.",
+    "what": "1927-founded retro working-class dining hall. Large bottle beer, fried oysters, hayashi rice.",
+    "why": "Off-path between Stops 1 and 2 — but LO 20:45 means daytime/early-evening only. Skip on the golden path.",
     "address": "京都市中京区新京極通四条上ル中之町546",
-    "walk": "~14 min from Ritz"
+    "walk": "On the path between 1B and 2A if before 20:00"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "立ち呑み ココロノコリ (Kokoronokori) — natural wine",
+    "name": "Kokoronokori (立ち呑み ココロノコリ) — natural wine",
     "lat": 35.004,
     "lon": 135.7702,
-    "when": "~17:00-24:00 · walk-in (¥100/hr seat charge if sitting)",
-    "what": "Natural wine + small plates standing bar near Pontocho south end. Ahi tuna tartare, design-food-industry crowd.",
-    "why": "Wine pick (not sake/chuhai). Off-path if you want a wine break.",
+    "when": "~17:00-24:00 · walk-in",
+    "what": "Natural wine + small plates standing bar near Pontocho south end. Ahi tuna tartare.",
+    "why": "Off-path near Stop 3 if you want wine over chuhai.",
     "address": "京都市中京区下樵木町197",
-    "walk": "~13 min from Ritz"
+    "walk": "Adjacent to 3A"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "レボリューションブックス (Revolution Books) — bar in bookshop",
+    "name": "Revolution Books — bar in bookshop",
     "lat": 35.0042,
     "lon": 135.76945,
     "when": "~12:00 to late",
-    "what": "Walk-in standing bar + cookbook shop hybrid, 2F unit. Sashimi, karaage, whiskey.",
-    "why": "The weirdest pick — bar inside a bookshop. Off-path curiosity.",
+    "what": "Walk-in standing bar + cookbook shop hybrid, 2F. Sashimi, karaage, whiskey.",
+    "why": "Off-path weird-pick near Stop 2 cluster. Bar inside a bookshop.",
     "address": "Kawaramachi area, 2F",
-    "walk": "~12 min from Ritz"
+    "walk": "Adjacent to 2A/2B"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "🍋 すいば 六角富小路 (Suiba Rokkaku-Tomikoji)",
+    "name": "🍋 Suiba Rokkaku-Tomikoji — different branch",
     "lat": 35.00903,
     "lon": 135.76651,
     "when": "Wed 17:00-23:30 LO 23:30",
-    "what": "Standing chuhai bar. Sawa (lemon sour) + Kyoto sake. ~¥1,500.",
-    "why": "Different Suiba branch from 1B/2B — Rokkaku-Tomikoji branch, west of Teramachi. Off-path option.",
-    "address": "京都市中京区六角通柳馬場東入ル77 河村ビル1階",
-    "walk": "~10 min from Ritz, west of Teramachi"
+    "what": "Standing chuhai bar. Sawa (lemon sour) + Kyoto sake.",
+    "why": "Off-path west of the golden line (near Teramachi-Rokkaku, west of Kiyamachi). Different Suiba branch from 1A/2B.",
+    "address": "京都市中京区六角通柳馬場東入ル77",
+    "walk": "Off the Kiyamachi line, ~10 min from Ritz west"
   },
   {
     "cat": "bonus",
     "label": "·",
-    "name": "山口西店 (Yamaguchi Nishi) — sister of 4B",
+    "name": "Yamaguchi Nishi (山口西店) — sister of 4B",
     "lat": 35.0026,
     "lon": 135.77565,
     "when": "17:30-01:00 · CLOSED Sundays",
-    "what": "Sister of 4B Yamaguchi Daitei Higashi. 8-seat counter + tables + 2F tatami. Beef curry stew, seasoned rice, large beer.",
-    "why": "If 4B is closed/full, same family's other shop. Open till 01:00. Off the golden-path naming because it's redundant with 4B.",
+    "what": "Sister of 4B Yamaguchi Daitei. 8-seat counter + 2F tatami. Beef curry stew, seasoned rice, large beer.",
+    "why": "Off-path between Stops 4 and 5 in Gion. Backup to 4B if Daitei is closed/full. Open till 01:00.",
     "address": "京都市東山区花見小路末吉町西入ル374-2",
-    "walk": "~15 min from Ritz"
+    "walk": "Between 4A and 5A on the south-Gion line"
   },
   {
     "cat": "station",
@@ -442,8 +441,8 @@ const PINS = [
     "name": "Kawaramachi (Hankyu line)",
     "lat": 35.00343,
     "lon": 135.76879,
-    "when": "Closest to Kiyamachi + Shinkyogoku",
-    "what": "Hankyu Kyoto line. Heart of Kawaramachi-Shijo commercial node."
+    "when": "Closest to Stops 1-3 west of river",
+    "what": "Hankyu Kyoto line."
   },
   {
     "cat": "station",
@@ -451,8 +450,8 @@ const PINS = [
     "name": "Gion-Shijo (Keihan line)",
     "lat": 35.00343,
     "lon": 135.77272,
-    "when": "Gion area transit",
-    "what": "Keihan line. All Gion picks within 5-10 min walk."
+    "when": "Cross-river crossing point",
+    "what": "Keihan line. Shijo-Ohashi bridge is the natural crossover from Stop 3 to Stops 4-5."
   },
   {
     "cat": "station",
@@ -460,8 +459,8 @@ const PINS = [
     "name": "Sanjo (Keihan + Tozai)",
     "lat": 35.0091,
     "lon": 135.77151,
-    "when": "Cross-river hub",
-    "what": "Sanjo-Ohashi bridge — main Kamogawa crossing."
+    "when": "North-end crossover",
+    "what": "Sanjo-Ohashi bridge — alt Kamogawa crossing for the north end of the walk."
   }
 ];
 const COUNTS = {"locked":1,"major":10,"bonus":10,"station":3};
@@ -519,6 +518,30 @@ groups.station.addTo(map);
 
 const all = PINS.map(p => [p.lat, p.lon]);
 if (all.length) map.fitBounds(all, { padding: [30, 30] });
+
+// Render path polyline if provided
+const PATH = [[35.01428,135.77078],[35.00833,135.76828],[35.00404,135.76859],[35.00339,135.77068],[35.00375,135.77735],[35.0021,135.7755],[35.01428,135.77078]];
+if (PATH && PATH.length > 1) {
+  L.polyline(PATH, {
+    color: '#B8860B',
+    weight: 4,
+    opacity: 0.85,
+    dashArray: '12, 8',
+    lineCap: 'round',
+    lineJoin: 'round'
+  }).addTo(map);
+  // Arrow markers at each waypoint along the path
+  for (let i = 1; i < PATH.length - 1; i++) {
+    const [lat, lon] = PATH[i];
+    L.circleMarker([lat, lon], {
+      radius: 6,
+      color: '#B8860B',
+      fillColor: '#FBF1D5',
+      fillOpacity: 0.9,
+      weight: 2
+    }).addTo(map);
+  }
+}
 
 ['locked', 'major', 'bonus', 'station'].forEach(cat => {
   document.getElementById('show-' + cat).addEventListener('change', e => {
